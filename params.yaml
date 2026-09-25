@@ -5,3 +5,4 @@ split:
 train:
   model: ridge
   alpha: 1.0
+  n_estimators: 300

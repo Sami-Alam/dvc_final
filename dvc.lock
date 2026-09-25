@@ -41,6 +41,7 @@ stages:
         train:
           model: ridge
           alpha: 1.0
+          n_estimators: 300
     outs:
     - path: models/model.joblib
       hash: md5
